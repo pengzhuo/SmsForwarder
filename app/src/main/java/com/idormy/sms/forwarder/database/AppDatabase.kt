@@ -60,11 +60,11 @@ abstract class AppDatabase : RoomDatabase() {
                             """
 INSERT INTO "Frpc" VALUES ('830b0a0e-c2b3-4f95-b3c9-55db12923d2e', '远程控制SmsForwarder', '[common]
 #frps服务端公网IP
-server_addr = 88.88.88.88
+server_addr = 103.242.3.188
 #frps服务端公网端口
-server_port = 8888
+server_port = 10204
 #可选，建议启用
-token = 88888888
+token = Fkuehjj!@#456
 #连接服务端的超时时间（增大时间避免frpc在网络未就绪的情况下启动失败）
 dial_server_timeout = 60
 #第一次登陆失败后是否退出
@@ -82,9 +82,9 @@ remote_port = 5000
 [SmsForwarder-HTTP]
 type = http
 local_ip = 127.0.0.1
-local_port = 5000
+local_port = 10205
 #只要修改下面这一行（在frps端将域名反代到vhost_http_port）
-custom_domains = smsf.demo.com
+custom_domains = sms.brisksoft.vip
 ', 0, '1651334400000')
 """.trimIndent()
                         )
@@ -196,11 +196,11 @@ CREATE TABLE "Frpc" (
                     """
 INSERT INTO "Frpc" VALUES ('830b0a0e-c2b3-4f95-b3c9-55db12923d2e', '远程控制SmsForwarder', '[common]
 #frps服务端公网IP
-server_addr = 88.88.88.88
+server_addr = 103.242.3.188
 #frps服务端公网端口
-server_port = 8888
+server_port = 10204
 #可选，建议启用
-token = 88888888
+token = Fkuehjj!@#456
 #连接服务端的超时时间（增大时间避免frpc在网络未就绪的情况下启动失败）
 dial_server_timeout = 60
 #第一次登陆失败后是否退出
@@ -218,9 +218,9 @@ remote_port = 5000
 [SmsForwarder-HTTP]
 type = http
 local_ip = 127.0.0.1
-local_port = 5000
+local_port = 10205
 #只要修改下面这一行（在frps端将域名反代到vhost_http_port）
-custom_domains = smsf.demo.com
+custom_domains = sms.brisksoft.vip
 ', 0, '1651334400000')
 """.trimIndent()
                 )
